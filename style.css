@@ -34,6 +34,7 @@ font-size: 16px;
 
 .trybe{
     color:#036b52;
+    text-decoration: none;
 }
 
 .skills{
@@ -48,12 +49,58 @@ font-size: 16px;
     font-size: 1.4em;
 }
 .languages{
+    font-size: 1.35em;
+}
+.html{
+    font-size: 1.25em;
+}
+.css{
+    font-size: 1.20em;
+}
+.javascript{
+    font-size: 1.15em;
+}
+.github{
+    font-size: 1.10em;
+}
+.patience{
+    font-size: 1.20em
+}
+.communication{
+    font-size: 1.15em;
+}
+.eletric{
     font-size: 1.1em;
 }
 .office {
-    font-size: 1.2em;
+    font-size: 1.05em;
+}
+.so{
+    font-size: 1em;
+}
+.tft{
+    font-size: 0.95em;
 }
 
-.html{
-    font-size: 1em;
+.cursoemvideo{
+  text-decoration: none;
+}
+
+#links{
+    padding:5px;
+}
+
+.voltarFoto{
+    background-color:#9B9FB5;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.linkedin{
+    background-color:blue;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 20px;
 }
