@@ -1,0 +1,59 @@
+body{
+background-color: #D1B1C8;
+font-size: 16px;
+/* B1B7D1
+9B9FB5
+8C7284
+7A6174 */
+}
+
+.name{
+    color: #9B9FB5;  
+}
+
+.foto-description{
+    display: inline-flex;
+}
+
+.imagem{ 
+    padding: 10px;
+}
+
+#description{
+    color: #7A6174;
+    font-size: 1.4em;
+}
+
+.nationality-green{
+    color: green;
+}
+
+.nationality-yellow{
+    color:yellow;
+}
+
+.trybe{
+    color:#036b52;
+}
+
+.skills{
+    font-size: 2em;
+}
+
+.locality{
+    color:black;
+}
+
+.fastlearning{
+    font-size: 1.4em;
+}
+.languages{
+    font-size: 1.1em;
+}
+.office {
+    font-size: 1.2em;
+}
+
+.html{
+    font-size: 1em;
+}
