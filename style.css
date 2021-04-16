@@ -12,30 +12,38 @@ font-size: 16px;
     text-align: center;
 }
 
-.lista-indice {
-    display: inline-flex ;
-}
-
 .lista-indice li{
-    margin-right: 30px;
+    
 }
 
 .foto-description{
-    display: inline-flex;
-    width: 100%;
+    padding: 30px 70px 90px 70px;
+    width: 80%;
+    margin: auto;
 }
 
 .imagem{ 
     background-color: #000;
-    padding: 5px;
-    /* border-radius: 50%; */
-    margin-right: 50px;
+    padding: 3px;
+    border-radius: 50%; 
+    
+    
 }
 
-#description{
+.foto{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+
+.description{
+    display: inline-block;
     color: #7A6174;
     font-size: 1.4em;
-    max-width: 500px;
+    width: 49%;
+    vertical-align: top;
+    
+    
 }
 
 .nationality-green{
@@ -53,10 +61,14 @@ font-size: 16px;
 
 #skills{
     color: #7A6174;
+    text-align: center;
+    margin: 30px;
 }
 
 .skills{
     font-size: 2em;
+    color: black;
+    
 }
 
 .locality{
@@ -104,7 +116,20 @@ font-size: 16px;
 
 #links{
     padding:5px;
-    display: inline-flex;
+    width: 100%;
+    margin: auto;
+    width:80% ;
+    text-align: center;
+    
+    
+}
+
+#links p{
+    display: inline-block;
+    width: 30%;
+    margin: auto;
+    
+    
 }
 .cursoemvideo{
     background-color:blue;
@@ -113,6 +138,7 @@ font-size: 16px;
     text-decoration: none;
     border-radius: 20px;
     margin-right: 20px;
+    
   }
 
 .github-link{
@@ -124,14 +150,6 @@ font-size: 16px;
     margin-right: 20px;
 }  
 
-.voltarFoto{
-    background-color:#9B9FB5;
-    padding: 10px 30px;
-    text-decoration: none;
-    border-radius: 20px;
-    margin-right: 20px;
-}
-
 .linkedin{
     background-color:blue;
     color: white;
@@ -139,4 +157,19 @@ font-size: 16px;
     text-decoration: none;
     border-radius: 20px;
     margin-right: 20px;
+   
+
 }
+.voltarFoto{
+    background-color:#9B9FB5;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 20px;
+    
+}
+
+.paragrafovoltarFoto{
+    text-align: center;
+    margin-top: 50px;
+}
+
