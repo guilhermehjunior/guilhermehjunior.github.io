@@ -9,19 +9,33 @@ font-size: 16px;
 
 .name{
     color: #9B9FB5;  
+    text-align: center;
+}
+
+.lista-indice {
+    display: inline-flex ;
+}
+
+.lista-indice li{
+    margin-right: 30px;
 }
 
 .foto-description{
     display: inline-flex;
+    width: 100%;
 }
 
 .imagem{ 
-    padding: 10px;
+    background-color: #000;
+    padding: 5px;
+    /* border-radius: 50%; */
+    margin-right: 50px;
 }
 
 #description{
     color: #7A6174;
     font-size: 1.4em;
+    max-width: 500px;
 }
 
 .nationality-green{
@@ -35,6 +49,10 @@ font-size: 16px;
 .trybe{
     color:#036b52;
     text-decoration: none;
+}
+
+#skills{
+    color: #7A6174;
 }
 
 .skills{
@@ -82,19 +100,36 @@ font-size: 16px;
     font-size: 0.95em;
 }
 
-.cursoemvideo{
-  text-decoration: none;
-}
+
 
 #links{
     padding:5px;
+    display: inline-flex;
 }
+.cursoemvideo{
+    background-color:blue;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-right: 20px;
+  }
+
+.github-link{
+    background-color:blue;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-right: 20px;
+}  
 
 .voltarFoto{
     background-color:#9B9FB5;
     padding: 10px 30px;
     text-decoration: none;
     border-radius: 20px;
+    margin-right: 20px;
 }
 
 .linkedin{
@@ -103,4 +138,5 @@ font-size: 16px;
     padding: 10px 30px;
     text-decoration: none;
     border-radius: 20px;
+    margin-right: 20px;
 }
